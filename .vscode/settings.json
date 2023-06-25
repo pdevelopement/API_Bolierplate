@@ -4,5 +4,20 @@
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
     "editor.wordWrap": "on",
-    "workbench.settings.openDefaultSettings": true
+    "workbench.settings.openDefaultSettings": true,
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "test",
+            "database": "oracle",
+            "username": "root",
+            "askForPassword": true
+        }
+    ]
 }
